@@ -1,4 +1,4 @@
-from .models import User
+from .models import User  
 from .serializers import UserSerializer
 from .permissions import IsAccountOwner
 from rest_framework import generics
